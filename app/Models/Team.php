@@ -15,6 +15,10 @@ class Team extends Model
         return $this->hasMany(Stat::class);
     }
 
+    public function game(){
+        return $this->hasMany(Game::class);
+    }
+
     //Relación uno a muchos inversa
     public function school(){
         return $this->belongsTo(School::class);
@@ -26,5 +30,10 @@ class Team extends Model
 
     public function tournament(){
         return $this->belongsTo(Tournament::class);
+    }
+
+    //Relación uno a uno
+    public function position(){
+        return $this->hasOne(Position::class);
     }
 }

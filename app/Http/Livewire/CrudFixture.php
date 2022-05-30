@@ -26,7 +26,7 @@ class CrudFixture extends Component{
 
     public function render(){
         $games=Game::paginate();
-        $this->teams=Team::pluck('name','name');
+        $this->teams=Team::pluck('name','id');
         $this->places=Place::pluck('name','id');
         $tournaments=Tournament::pluck('name','id');
         return view('livewire.crud-fixture',compact('games','tournaments'));

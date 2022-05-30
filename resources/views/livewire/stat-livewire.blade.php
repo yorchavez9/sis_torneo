@@ -1,10 +1,11 @@
 <x-main>
+    {{-- {{$equipos}} --}}
     @foreach ($games as $item)
         <x-card>
             <div class="card-href">
                 <div class="grid grid-cols-2">
                     <div class="w-full">
-                        <h5 class="titulo">{{$loop->iteration.". ".$item->local." vs ".$item->visitor}}</h5>
+                        <h5 class="titulo">{{$loop->iteration.". ".\App\Models\Team::find($item->local)->name." vs ".\App\Models\Team::find($item->visitor)->name}}</h5>
                         <p>[<b>{{$item->tournament->name}}</b>] | {{date('Y-m-d',strtotime($item->datetime))}}  | {{date('H:i:s',strtotime($item->datetime))}} | {{$item->place->name}}</p>
                         <p>REGISTRO DE GOLES/TARJETAS</p>
                         <p><b>[ESTADO] | <span class="bg-indigo-400 p-1 text-white rounded-lg">{{$item->status}}</span></b></p>

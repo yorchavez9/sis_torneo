@@ -43,8 +43,8 @@
                       {{$item->id}}
                     </span>
                   </td>
-                  <td class="px-6 py-4">{{$item->local}}</td>
-                  <td class="px-6 py-4">{{$item->visitor}}</td>
+                  <td class="px-6 py-4">{{\App\Models\Team::find($item->local)->name}}</td>
+                  <td class="px-6 py-4">{{\App\Models\Team::find($item->visitor)->name}}</td>
                   <td class="px-6 py-4">{{$item->datetime}}</td>
                   <td class="px-6 py-4">{{$item->glocal}}</td>
                   <td class="px-6 py-4">{{$item->gvisitante}}</td>
