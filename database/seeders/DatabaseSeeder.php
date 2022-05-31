@@ -22,7 +22,8 @@ class DatabaseSeeder extends Seeder
         $this->call(CycleSeeder::class);
         $this->call(PlaceSeeder::class);
         $this->call(TournamentSeeder::class);
-        Team::factory(20)->create();
+        //Team::factory(20)->create();
+        $this->call(TeamSeeder::class);
         Player::factory(50)->create();
     }
 }

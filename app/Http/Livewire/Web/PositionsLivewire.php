@@ -8,7 +8,7 @@ use Livewire\Component;
 
 class PositionsLivewire extends Component{
     public function render(){
-        $positions=Position::all();
+        $positions=Position::select()->orderBy('pts', 'desc')->get();
         return view('livewire.web.positions-livewire',compact('positions'));
     }
 }

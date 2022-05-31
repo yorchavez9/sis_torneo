@@ -1,5 +1,5 @@
 <x-main>
-    {{-- {{$equipos}} --}}
+    {{$equipos}}
     @foreach ($games as $item)
         <x-card>
             <div class="card-href">
