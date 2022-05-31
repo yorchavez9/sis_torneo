@@ -18,7 +18,7 @@ class StatLivewire extends Component{
     public $equipos;
 
     public function render(){
-        $games=Game::all();
+        $games=Game::orderBy('id','asc')->get();
         $teams=Team::where('id',$this->local)->orWhere('id',$this->visitor)->get();
         $players=Player::where('team_id',$this->team_id)->get();
 
@@ -219,7 +219,7 @@ class StatLivewire extends Component{
 
             }
             //Actualizando posición
-            $this->equipos=json_encode($positionE2);
+            //$this->equipos=json_encode($positionE2);
             $positionE1->save();
             $positionE2->save();
             $this->emit('alert','Partido Terminado');
