@@ -5,9 +5,9 @@
             <div class="grid grid-cols-2">
                 <div class="w-full">
                     <h5 class="titulo">{{$item->id.". ".\App\Models\Team::find($item->local)->name." vs ".\App\Models\Team::find($item->visitor)->name}}</h5>
-                    <p>[<b>{{$item->tournament->name}}</b>] | {{date('Y-m-d',strtotime($item->datetime))}}  | {{date('H:i:s',strtotime($item->datetime))}} | {{$item->place->name}}</p>
-                    <p>REGISTRO DE GOLES/TARJETAS</p>
-                    <p><b>[ESTADO] | <span class="bg-indigo-400 p-1 text-white rounded-lg">{{$item->status}}</span></b></p>
+                    <p class="text-white">[<b>{{$item->tournament->name}}</b>] | {{date('Y-m-d',strtotime($item->datetime))}}  | {{date('H:i:s',strtotime($item->datetime))}} | {{$item->place->name}}</p>
+                    <p class="text-white">REGISTRO DE GOLES/TARJETAS</p>
+                    <p class="text-white"><b>[ESTADO] | <span class="bg-indigo-400 p-1 text-white rounded-lg">{{$item->status}}</span></b></p>
                     @if($item->winner)
                     <p class="mt-2"><b>[GANADOR] <span class="bg-indigo-400 p-1 text-white rounded-lg">{{$item->winner}} | {{$item->glocal." - ".$item->gvisitante}}</span></b></p>
                     @endif
