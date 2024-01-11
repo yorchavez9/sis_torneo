@@ -1,32 +1,31 @@
 
-## Ventas Lite
+# SISTEMA DE TORNEOS
 
-Sistema para la gestión de ventas desarrollado con Laravel y Livewire
+Sistema para la gestión de torneos desarrollado con Laravel y Livewire
 
 
 ## Feartures
 
 - Agregar productos a la venta, a traves de codigo de barras
 - Modulo de Usuarios
-- Modulo de Productos
-- Modulo Categorias
-- Modulo Monedas
-- Modulo Roles y permisos
-- Modulo Corte de caja
-- Reportes ventas por día y entre fechas (PDF y Excel)
+- Modulo de Equipos
+- Modulo Sorteo
+- Modulo Fixture
+- Modulo Jugador
+- Modulo Partido
 
 
-## Installación
+## Instalación
 
 Puedes seguir estos pasos para la instalación:
 
 * Clonar desde github (usar github desktop)
 ```bash
-  gh repo clone fmoraless/ventas-lite
+  git clone https://github.com/yorchavez9/sis_torneo.git
 ```
 * Vaya a la carpeta del proyecto
 ```bash
-  cd ventas-lite
+  cd sis_torneo
 ```
 * Instalar dependencias con composer desde consola
 ```bash
@@ -79,13 +78,9 @@ Iniciar el server
 #
 Ir a
 
-http://ventas-lite.dev.com (tu localhost)
+http://sis_torneo.com (tu localhost)
 
-utilizar usuario para prueba:
-```bash
-    user: fmorales@mail.com
-    pass: password
-```
+Puedes crear un nuevo usuario y ingresar con el mismo usuario que creaste
 
 
 ## Screenshots
@@ -102,4 +97,4 @@ utilizar usuario para prueba:
 
 ## Feedback
 
-Si tienes algun Feedback, por favor hazme saber fcomorales.sanchez@gmail.com
+Si tienes algun Feedback, por favor hazme saber djjmygm160399@gmail.com o al whatsapp: +51 920 468 502
