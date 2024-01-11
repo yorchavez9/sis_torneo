@@ -40,6 +40,8 @@ Puedes seguir estos pasos para la instalación:
 ## Variables de entorno
 
 Para ejecutar este proyecto, Necesitarás añadir las siguientes variables de entorno en **.env file**
+Para ello primero tienes hacer una copia del **.env.example** y solo tiene que quedar así **.env**
+Una vez ya copiado se debe configurar el siguiente:
 
 `DB_DATABASE=your-database`
 
@@ -61,6 +63,12 @@ Ejecutar las migraciones y datos de prueba
 ```bash
   php artisan migrate:fresh --seed
 ```
+Generamos una clave secreta
+
+```bash
+  php artisan jwt:secret
+```
+La clave secreta se creará en la ultima parte del .env
 Habilitar el storage para que se pueda subir archivos
 
 ```bash
