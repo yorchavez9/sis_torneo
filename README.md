@@ -85,15 +85,22 @@ Puedes crear un nuevo usuario y ingresar con el mismo usuario que creaste
 
 ## Screenshots
 
-#### Crear productos
+#### Inico de la página
 
-![Create product](https://drive.google.com/uc?export=view&id=1NdMtgqzL2W56fJQKcc2fSEnVJHbusNtp)
+![Incio de la página](public/features/01.png)
 
-#### Añadir productos a la venta
-![Add products to Sale](https://drive.google.com/uc?export=view&id=1aPAIy9fBMW86hGckwr9MWxSvUFRAK1GC)
+#### Inico de la página
 
-#### Asignar permisos a rol
-![Add Permission to rol](https://drive.google.com/uc?export=view&id=1OPXXcuEWibbn1QGwPW6FrSX3fYx7U588)
+![Incio de la página](public/features/Captura%20de%20pantalla%202023-09-08%20111358.png)
+
+#### Inico de la página
+
+![Incio de la página](public/features/Captura%20de%20pantalla%202024-01-11%20112345.png)
+
+#### Inico de la página
+
+![Incio de la página](public/features/Captura%20de%20pantalla%202024-01-11%20112523.png)
+
 
 ## Feedback
 
