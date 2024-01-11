@@ -89,17 +89,17 @@ Puedes crear un nuevo usuario y ingresar con el mismo usuario que creaste
 
 ![Incio de la página](public/features/01.png)
 
-#### Inico de la página
+#### Sorteo
 
-![Incio de la página](public/features/Captura%20de%20pantalla%202023-09-08%20111358.png)
+![Soteo](public/features/Captura%20de%20pantalla%202023-09-08%20111358.png)
 
-#### Inico de la página
+#### Equipos
 
-![Incio de la página](public/features/Captura%20de%20pantalla%202024-01-11%20112345.png)
+![Equipos](public/features/Captura%20de%20pantalla%202024-01-11%20112345.png)
 
-#### Inico de la página
+#### Partido
 
-![Incio de la página](public/features/Captura%20de%20pantalla%202024-01-11%20112523.png)
+![Patido](public/features/Captura%20de%20pantalla%202024-01-11%20112523.png)
 
 
 ## Feedback
